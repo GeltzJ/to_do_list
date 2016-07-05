@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-family:fantasy;
+    font-size: 75px;
+    animation: colorchange 10s infinite ease-in-out;   
+}
+
+ul li {
+    animation: colorchange 10s infinite ease-in-out;
+    text-align: center;
+    list-style:none;
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: #1F1F1F;
+    margin: 1px;
+}
+    
+body {
+    background-color: black;
+    background-image: url(/images/003wGL68zy6PfT8sbm484&690.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+}
+
+@keyframes colorchange {
+    0%,100% {color:hotpink;}
+    20% {color:yellow;}
+    40% {color:dodgerblue;}
+    60% {color:darkgreen;}
+    80% {color: orange;}
+}
+
+#list {
+    color: lightgreen;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
